@@ -12,7 +12,7 @@ if(droid == null){
               let Col = droid * pricePerDroid;
               let totalPrice = credit - Col;
               console.log(totalPrice)
-              if (totalPrice <= 0) {
+              if (totalPrice === 0) {
                   console.log("У вас не вистачає коштів на" + " " + droid + " " + "дронів")
               }
 
